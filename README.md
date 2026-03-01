@@ -56,3 +56,17 @@ This project strengthened my ability to transform raw data into actionable busin
 ## 👨‍💻 Author
 **Baibhav Raj**
 Aspiring Data Analyst | SQL | Excel | Data Visualization
+
+## 📸 Project Screenshots
+
+### Discount Impact Analysis
+![Discount Analysis](discount_analysis.png)
+
+### TOP CUSTOMERS
+![TOP CUSTOMERS](Most_Valuable_Customer.png)
+
+### Most Profitable Cities by Region
+![City Profit](city_profit_by_region.png)
+
+### Running Total Sales Trend
+![Running Total](running_total_sales.png)
