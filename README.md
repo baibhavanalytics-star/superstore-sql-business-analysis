@@ -1,72 +1,70 @@
-# 📊 Superstore SQL Business Analysis Project
+# 🗄️ Superstore SQL Business Analysis
 
-## 📌 Project Overview
-This project analyzes the Superstore dataset using MySQL to extract meaningful business insights related to sales performance, profitability, customer behavior, discount impact, and regional trends.
+## 📌 Problem Statement
 
-The goal of this project was to practice real-world SQL business analysis by solving practical business questions.
-
----
-
-## 🛠 Tools Used
-- MySQL Workbench
-- SQL (Aggregation, Window Functions, CTEs)
-- Superstore Dataset
+Businesses generate large volumes of transactional data, but extracting meaningful insights requires structured analysis.
+This project uses SQL to analyze Superstore sales data and answer key business questions related to revenue, customers, and product performance.
 
 ---
 
-## 📊 Key Business Questions Solved
-1. What are total sales, profit, and orders?
-2. Which categories and products generate the highest revenue?
-3. Which customers contribute the most profit?
-4. Which regions and states are loss-making?
-5. How do discounts affect profitability?
-6. What is the running total sales trend over time?
+## 📂 Dataset
+
+* Superstore sales dataset
+* Contains order details, customer data, product categories, and sales information
+* Dataset size: 50,000+ records
 
 ---
 
-## 📈 Key Insights
-- Technology category contributes the highest share of revenue.
-- Discounts above 20% consistently lead to negative profit.
-- Some customers and states generate losses despite high sales.
-- West region drives the highest sales performance.
-- Running total analysis shows steady business growth over time.
+## 🛠️ Tools & Technologies
+
+* SQL (MySQL / PostgreSQL)
+* Data Analysis using queries
 
 ---
 
-## 🧠 Skills Demonstrated
-- Data Aggregation & Grouping
-- Business KPI Analysis
-- Window Functions
-- Common Table Expressions (CTEs)
-- Profitability Analysis
-- Time-Series Analysis
+## 🔍 Business Questions Solved
+
+* Who are the top-performing customers?
+* Which product categories generate the most revenue?
+* Which regions contribute the highest sales?
+* What are the least profitable products?
+* How does sales performance vary over time?
 
 ---
 
-## 📂 Files in This Repository
-- `superstore_sql_analysis.sql` → Contains all SQL queries used in the project
+## 📊 Key Insights
+
+* Top 10% customers contribute a significant portion of revenue
+* Certain categories consistently outperform others
+* Some regions show lower profitability despite high sales
+* A few products negatively impact overall profit
 
 ---
 
-## 🎯 Learning Outcome
-This project strengthened my ability to transform raw data into actionable business insights using SQL.
+## 💼 Business Impact
+
+* Helps identify high-value customers
+* Supports product and pricing strategy decisions
+* Enables region-wise performance optimization
+* Assists in improving profitability
 
 ---
 
-## 👨‍💻 Author
-**Baibhav Raj**
-Aspiring Data Analyst | SQL | Excel | Data Visualization
+## 📁 Files in Repository
 
-## 📸 Project Screenshots
+* `superstore_analysis.sql` → SQL queries
+* `dataset.csv` → Dataset used
+* `query_results.png` → Output screenshots
 
-### Discount Impact Analysis
-![Discount Analysis](discount_analysis.png)
+---
 
-### TOP CUSTOMERS
-![TOP CUSTOMERS](Most_Valuable_Customer.png)
+## 📸 Sample Output
 
-### Most Profitable Cities by Region
-![City Profit](city_profit_by_region.png)
 
-### Running Total Sales Trend
-![Running Total](running_total_sales.png)
+---
+
+## 🚀 Future Improvements
+
+* Create dashboard using Power BI or Tableau
+* Optimize queries for performance
+* Perform advanced analysis using window functions
