@@ -59,10 +59,19 @@ This project uses SQL to analyze Superstore sales data and answer key business q
 ---
 
 ## 📸 Sample Output
-top_customers_output.png 
-running_total_sales.png
-discount_analysis.png
-city_profit_by_region.png
+## 📸 Sample Output
+
+### Top Customers
+![Top Customers](top_customers_output.png)
+
+### Running Total Sales
+![Running Total](running_total_sales.png)
+
+### Discount Analysis
+![Discount Analysis](discount_analysis.png)
+
+### City Profit by Region
+![City Profit](city_profit_by_region.png)
 ---
 
 ## 🚀 Future Improvements
